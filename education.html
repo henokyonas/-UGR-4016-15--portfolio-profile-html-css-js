@@ -1,0 +1,88 @@
+<!-- education.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Education and CV of Henok Yonas Bekuretsion">
+    <title>Education - Henok Yonas Bekuretsion</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        /* Page-specific styles */
+        .education-content {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .education-item {
+            margin-bottom: 2rem;
+        }
+
+        .education-item h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        @media screen and (max-width: 767px) {
+            .education-content {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="profile.jpg" alt="Profile Photo" class="profile-image">
+            <h1>EDUCATION AND CV</h1>
+        </div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html" >ABOUT ME</a>
+            <a href="education.html"class="active">EDUCATION</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="education-content">
+            <section class="education-item">
+                <h2>Education</h2>
+                <h3>Addis Ababa Institute of Technology (AAIT)</h3>
+                <p>Bachelor's Degree in Software Engineering</p>
+                <p>Expected Graduation: 2027</p>
+                <p>Currently pursuing a rigorous 5-year program at AAIT, one of Ethiopia's leading engineering schools. As a 3rd year student, I've gained substantial foundation in software development, with hands-on experience in programming, design, and problem-solving.</p>
+            </section>
+
+            <section class="education-item">
+                <h2>Certifications</h2>
+                <div class="certification">
+                    <h3>Programming Foundations - FreeCodeCamp (Udacity)</h3>
+                    <p>Gained practical skills in HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="certification">
+                    <h3>University of California, San Diego (Coursera)</h3>
+                    <p>Mastered core concepts of object-oriented programming and applied them to develop robust Java applications.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Henok Yonas Bekuretsion</p>
+    </footer>
+
+    <button class="theme-toggle" aria-label="Toggle theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" style="display: none;">
+            <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24">
+            <path d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+        </svg>
+    </button>
+</body>
+</html>
